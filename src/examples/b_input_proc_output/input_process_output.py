@@ -18,7 +18,7 @@ def use_float_type():
     print(num)   
 
 def use_string_type():
-    lang = Python
+    lang = Python # type: ignore
     print(lang)
 
     lang = 10
