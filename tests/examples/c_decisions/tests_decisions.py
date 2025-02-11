@@ -23,7 +23,11 @@ class Test_Config(unittest.TestCase):
     def test_not_truth_table(self):
         self.assertEqual(not False, True)
         self.assertEqual(not True, False)
-        
+
+    def test_compare_numbers_equality(self):
+        self.assertEqual((10,5),False)
+        self.assertEqual((10,10),True)
+
 
 
 
