@@ -1,8 +1,9 @@
-ratio = 0
 
-def get_options_ratio (options, total):
-    ratio = options / total
+def get_options_ratio (options,total):
+    ratio = options % total
+    options = input
     return ratio
+
 
 def get_faculty_rating(ratio):
     if (ratio <= 1 and ratio >= .9):
