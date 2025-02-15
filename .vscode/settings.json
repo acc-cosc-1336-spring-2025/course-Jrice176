@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/homework/b_in_proc_out"
+    ]
+}
