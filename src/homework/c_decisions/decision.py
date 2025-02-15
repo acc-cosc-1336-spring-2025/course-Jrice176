@@ -1,19 +1,19 @@
-def test_config():
-    return True
-
-def get_options_ratio (options,total):
-    ratio = options % total
-    return ratio
 
 
-def get_faculty_rating(ratio):
-    if (ratio <= 1 and ratio >= .9):
+def get_options_ratio (options, total):
+    result = options % total
+    
+    return result
+
+
+def get_faculty_rating(result):
+    if (result <= 1 and result >= .9):
         return 'Excellent'
-    if (ratio < .9 and ratio >= .8):
+    if (result < .9 and result >= .8):
         return 'Very Good'
-    if (ratio < .8 and ratio >= .7):
+    if (result < .8 and result >= .7):
         return 'Good'
-    if (ratio < .7 and ratio >= .6):
+    if (result < .7 and result >= .6):
         return 'Needs Improvement'
-    if (ratio < .6 and ratio >= 0):
+    if (result < .6 and result >= 0):
         return 'Unacceptable'
