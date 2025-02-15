@@ -1,7 +1,8 @@
+def test_config():
+    return True
 
 def get_options_ratio (options,total):
     ratio = options % total
-    options = input
     return ratio
 
 

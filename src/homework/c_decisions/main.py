@@ -1,6 +1,12 @@
-#
-from homework.c_decisions.decisions import get_options_ratio
+def get_options_ratio (options,total):
+    result = options % total
+    return result
 
 def main():
-    get_options_ratio(input('Enter a number'),input('Enter a number'))
+    options = input('Enter a Number')
+    total = input('Enter a Number')
+    result = get_options_ratio(options,total)
+    return result
+    
+main()
     
