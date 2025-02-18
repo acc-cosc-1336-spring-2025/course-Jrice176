@@ -1,7 +1,9 @@
 import repetition
 
 def main():
-    repetition.use_a_while_loop(3)
+    num = input("Enter a number ")
+    result = repetition.get_sum_of_squares(int(num))
+    print(result)
 
 main()
 
