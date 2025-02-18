@@ -41,3 +41,4 @@ def get_generation(year):
 
 
     return generation
+
