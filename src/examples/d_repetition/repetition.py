@@ -66,4 +66,10 @@ def nested_while_loop(num):
             print("\tInner while loop running...")
             j += 1
         i += 1
-            
+
+def for_nested_loop(num):
+    for i in range(0, num):
+        print('Waiting for inner loop...')
+
+        for j in range(0, num):
+            print('\tInner loop running...')
