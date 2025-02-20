@@ -2,8 +2,8 @@ import repetition
 
 def main():
     #num = input("Enter a number ")
-    result = repetition.for_nested_loop(2)
-    print(result)
+    result = repetition.multiplication_table_while(10, 10)
+    
     
 
 main()
