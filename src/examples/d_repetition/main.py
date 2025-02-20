@@ -2,7 +2,8 @@ import repetition
 
 def main():
     #num = input("Enter a number ")
-    repetition.use_a_for_range_loop(4)
+    result = repetition.nested_while_loop(2)
+    print(result)
     
 
 main()
