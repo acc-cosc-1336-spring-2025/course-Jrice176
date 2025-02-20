@@ -80,7 +80,14 @@ def multiplication_table_while(rows, cols):
         c = 0
         while(c < cols):
             product = (r+1) * (c+1)
-            print(product, end = " ")
+            print(str(product).rjust(3, " "), end = " ")
             c+=1
         r+=1
+        print(" ")
+
+def multiplication_table_for(rows, cols):
+    for r in range(0, rows):
+        for c in range(0, cols):
+            product = (r+1) * (c+1)
+            print(str(product).rjust(3," "), end = " ")
         print(" ")
