@@ -1,8 +1,9 @@
 import repetition
 
 def main():
-    num = input("Enter a number: ")
-    result = repetition.sum_odd_numbers(int(num))
-    print(result)
+    #num = input("Enter a number: ")
+    maximum = input("Enter a number: ")
+    repetition.sum_odd_numbers(int(maximum))
+    
     
 main()

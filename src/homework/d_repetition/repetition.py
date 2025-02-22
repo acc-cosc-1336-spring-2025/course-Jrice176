@@ -10,11 +10,13 @@ def get_factorial(num):
             factorial = factorial * i
             print("The factorial of", num, "is", factorial)
 
-def sum_odd_numbers(num):
-    sum = 0
-    value = 1
-    while (value < (2*num)-1):
-        if value % 2 == 1:
-            sum += value
-        value += 1
-    return sum
+def sum_odd_numbers(maximum):
+    odd_total = 0
+    number = 1
+    while (number <= maximum):
+        if(number % 2 != 0):
+            print("{0}".format(number))
+            odd_total = odd_total + number
+        number = number + 1
+
+    print("The Sum of Odd Numbers from 1 to {0} = {1}".format(maximum, odd_total))
