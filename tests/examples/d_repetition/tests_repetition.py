@@ -1,6 +1,6 @@
 import unittest
 
-from src.examples.d_repetition.repetition import get_sum_of_squares, get_sum_of_squares_for, test_config
+from examples.d_repetition.repetitions import get_sum_of_squares, get_sum_of_squares_for, test_config
 
 class Test_Config(unittest.TestCase):
 

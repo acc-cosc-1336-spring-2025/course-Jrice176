@@ -1,8 +1,8 @@
-import repetition
+import examples.d_repetition.repetitions as repetitions
 
 def main():
     #num = input("Enter a number ")
-    result = repetition.multiplication_table_for(10, 10)
+    repetitions.display_hw_menu
     
     
 
