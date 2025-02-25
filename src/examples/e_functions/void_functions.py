@@ -9,5 +9,3 @@ def display_hello(num):
         num -= 1
 
     print(num)
-
-def 
