@@ -1,8 +1,6 @@
 #main program
 def main():
-    lang = 'C++'
-    print(lang)
-    print(lang.isalpha())
-    lang = 'PYTHON'
-    print(lang.isupper())
+    lang = 'python'
+    print(lang[0]) #-1 #string slicing
+    print(len(lang))
 main()
