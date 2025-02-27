@@ -1,5 +1,5 @@
 value = 100#global variable
-
+VALUE = 1000 #GLObal constant - read only
 def test_config():
     return True
 
@@ -13,3 +13,6 @@ def write_global_variable():
     global value
     value = 50
     print(value)
+    global VALUE
+    VALUE = 10001
+    print(VALUE)
