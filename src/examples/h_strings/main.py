@@ -1,7 +1,6 @@
 #main program
+import strings
 def main():
-    lang = 'python'
-    print(lang)
-    lang = lang + ' is great'
-    print(lang)
+    str = "Python"
+    strings.string_loop_w_while(str)
 main()
