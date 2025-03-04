@@ -21,3 +21,13 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(lang, "Python")
         self.assertEqual(lang1, "C++")
 
+    def test_search_string_w_in(self):
+        text = "Four score and seven years ago"
+        is_in = 'Seven'in text
+        self.assertEqual(is_in, False)
+
+    def test_search_string_w_in_2(self):
+        text = "Four score and seven years ago"
+        is_in = 'seven'in text
+        self.assertEqual(is_in, True)
+
