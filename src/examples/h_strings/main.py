@@ -1,6 +1,7 @@
 #main program
 import strings
 def main():
-    str = "Python"
-    strings.string_loop_w_for_range(str)
+    str = "four score and seven years ago"
+    split_text = str.split()
+    print(split_text)
 main()
