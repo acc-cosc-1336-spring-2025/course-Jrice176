@@ -17,6 +17,7 @@ class Test_Config(unittest.TestCase):
     def test_string_return_value(self):
         lang = "Python"
         lang1 = string_return_value(lang)
+        print(id(lang1))
         self.assertEqual(lang, "Python")
         self.assertEqual(lang1, "C++")
 
