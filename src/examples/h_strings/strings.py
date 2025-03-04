@@ -1,3 +1,6 @@
+from operator import index
+
+
 def test_config():
     return True
 
@@ -16,5 +19,12 @@ def string_loop_w_while(str):
     while(index < length):
         print(str[index], index, length)
         index += 1
+        if (index == 6):
+            print("",index, length)
+
+def string_loop_w_for_range(str):
+    length = len(str)
+    for index in range(0, length):
+        print(str[index], index, length)
         if (index == 6):
             print("",index, length)
