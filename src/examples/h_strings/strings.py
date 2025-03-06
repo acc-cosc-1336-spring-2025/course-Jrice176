@@ -28,3 +28,9 @@ def string_loop_w_for_range(str):
         print(str[index], index, length)
         if (index == 6):
             print("",index, length)
+
+def string_loop_w_for(str):
+    for ch in str:
+        print(ch)
+        ch = 'a'
+    print(str)
