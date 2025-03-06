@@ -34,3 +34,5 @@ def string_loop_w_for(str):
         print(ch)
         ch = 'a'
     print(str)
+
+
