@@ -63,3 +63,15 @@ class Test_Config(unittest.TestCase):
         stripped_str = str.rstrip()
         self.assertEqual(expected_str, stripped_str)
 
+    def test_string_find(self):
+        text = "Four score and seven years ago"
+        index = text.find("score")
+        self.assertEqual(index, 5)
+
+    def test_string_not_find(self):
+        text = "Four score and seven years ago"
+        index = text.find("Score")
+        self.assertEqual(index, -1)
+
+    def test_
+
