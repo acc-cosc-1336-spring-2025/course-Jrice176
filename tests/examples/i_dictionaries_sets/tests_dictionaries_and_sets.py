@@ -52,4 +52,8 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(phone_book[555-1111], 'Chris')
         self.assertEqual(phone_book[50.5], 'Joanne')
     
-    
+    def test_dictionary_records(self):
+        employee = {'name':'Kevin Smith', 'id':12345, 'pay_rate':25.75}
+        self.assertEqual(employee['name'], 'Kevin Smith')
+        self.assertEqual(employee['id'], 12345)
+        self.assertEqual(employee['pay_rate'], 25.75)
