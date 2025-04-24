@@ -10,3 +10,7 @@ class BankAccount():
     def withdraw(self,amount):
         if(amount > 0 and amount <= self.__balance):
             self.__balance -= amount
+
+def make_deposit(account):
+    amt = 100
+    account.deposit(amt)
