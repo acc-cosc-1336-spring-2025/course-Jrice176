@@ -1,3 +1,5 @@
 import unittest
-from src.examples.j_classes.bank_account import BankAccount, make_deposit
+from src.homework.j_classes.class_a import die
 class Test_Config(unittest.TestCase):
+    def test_roll(self):
+        self
